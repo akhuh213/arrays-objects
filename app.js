@@ -125,8 +125,59 @@ const FourthOfJulyPost = {
 };
 
 FourthOfJulyPost.picture = 'https://instagram.com/...';
-FourthOfJulyPost['likes'] = 15;
+FourthOfJulyPost['likes'] = 15;//we can write this way
 FourthOfJulyPost.comments = ['oka..'];
 FourthOfJulyPost.caption = 'writing code on the 4th';
 
 console.log(FourthOfJulyPost);
+
+//Functions  
+console.log('Hello');
+//three ways to wirte functions 
+
+//standard
+function sayHello() {
+    //write my code
+    //wirte your logic
+    console.log('Hello');
+}
+
+sayHello();
+sayHello();
+//2. function expression 
+const sayHelloAgain = function() {
+    console.log('Hello Again');
+};
+
+sayHelloAgain();
+
+//3. arrow function
+const sayHelloFinal = () => {
+    console.log('Hello world')
+}
+
+sayHelloFinal()
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const otherNumbers = [10, 20, 30, 40]
+
+function printNumbers(nums){
+    console.log(nums); //place holders in parameters; I can call whatever I want 
+}   //doesn;t have to be the same as const
+//printNumbers(numbers);
+//printNumbers(otherNumbers);
+
+function printNumbers(yes) {
+    for (let i = 0; i < yes.length; i++) {
+        let num = yes[i];
+
+        if (num < 30) {
+            console.log("This number is less than 30: " + num);
+        } else {
+            console.log("This number is greater than 30: " + num);
+        }
+    }
+}
+
+//printNumbers(numbers);
+printNumbers(otherNumbers);
