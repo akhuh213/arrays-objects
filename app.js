@@ -16,7 +16,7 @@ var otherNumber = 1
 while (otherNumber < number) {
     console.log(number);
    // otherNumber += 1; 
-    otherNumber = otherNumber +1; //
+    otherNumber = otherNumber + 1; //
     //it says otherNumber = otherNumber + 1; will check the condition again and if the condition is true, 
     //will print again, and go back to the loop again till reach the number which is 10.
 }
@@ -26,4 +26,11 @@ var myOtherNumber = 10;
 while (myOtherNumber < numberTwo) {
     console.log(myOtherNumber);//10
     myOtherNumber += 1;
+}
+
+var myNumber = 1;
+var secondNumber = 10;
+while (secondNumber > myNumber) {
+    console.log(myNumber);
+    myNumber += 2;
 }
