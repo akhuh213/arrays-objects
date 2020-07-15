@@ -158,7 +158,7 @@ const sayHelloFinal = () => {
 
 sayHelloFinal()
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const otherNumbers = [10, 20, 30, 40]
 
 function printNumbers(nums){
@@ -181,3 +181,24 @@ function printNumbers(yes) {
 
 //printNumbers(numbers);
 printNumbers(otherNumbers);
+
+//return 
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+function addNumbers(array) {
+    let result = 0;
+    //make line between logic and object
+    for(let i = 0; i <array.length; i++){
+        let num = array[i]; //1,2,3...9
+
+        result += num; //1,3,6,10,15 ...
+    }
+
+    return result; 
+
+}
+
+console.log(addNumbers(numbers));
+
+let myResult = addNumbers(numbers);
+console.log(myResult);
