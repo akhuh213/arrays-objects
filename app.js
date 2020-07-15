@@ -11,15 +11,15 @@ var teams = ['Rockets','Lakers','Warriors','Clippers','Blazers','Celtics','Nets'
 console.log(teams);
 
 // while loops
-//var number = 10;
-//var otherNumber = 1
-//while (otherNumber < number) {
-   // console.log(number);
-   // otherNumber += 1; 
+var number = 10;
+var otherNumber = 1
+while (otherNumber < number) {
+    console.log(otherNumber);
+    otherNumber += 1; 
     //number = otherNumber + 1; //
     //it says otherNumber = otherNumber + 1; will check the condition again and if the condition is true, 
     //will print again, and go back to the loop again till reach the number which is 10.
-//}
+}
 
 var numberTwo = 20;
 var myOtherNumber = 10;
@@ -57,4 +57,13 @@ var peopleILove = ['Sean','Joshua','Daniel','Yoon']
 for (var i = 0; i < peopleILove.length; i++) {
     var eachPerson = peopleILove[i];
     console.log(eachPerson);
+}
+
+
+const cars = ['Tesla', 'Honda', 'Toyota', 'Ford'];
+console.log(cars);
+
+for (let i = 0; i < cars.length; i++) {
+    let eachCar = cars[i]; //Tesla, Honda ...
+    console.log(eachCar);
 }
