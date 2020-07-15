@@ -67,3 +67,51 @@ for (let i = 0; i < cars.length; i++) {
     let eachCar = cars[i]; //Tesla, Honda ...
     console.log(eachCar);
 }
+
+
+//objects
+//key: value pairs
+
+const alice = {
+    fullName: 'Alice Aekyung Huh',
+    age: 35,
+    myLocation: 'Virginia',
+    placesTraveled: ['Japan', 'Malaysia', 'Hong Kong', 'Maldive']
+}
+
+console.log(alice);
+//mylocoation
+console.log(alice.myLocation);
+
+//print Malidve
+
+console.log(alice.placesTraveled[3]);
+
+
+const myCoolPost = {
+    username: '@alice',
+    likes: 1200,
+    comments: ['nice', 'woah', 'love it', 'yeah'],
+    caption: 'Day 3 of SEI',
+    picture: 'https://instagram.com/....',
+    shares: 12
+}
+
+console.log(myCoolPost);
+
+//adding key, value in object 
+myCoolPost.myLocation = 'New York';
+console.log(myCoolPost);
+
+//instagram post object 
+
+const myInstagramPost = {
+    username: 'aliceeeak',
+    likes: 200,
+    comments: ['love this!', 'I miss you!'],
+    caption: 'busy days',
+    picture: 'https://instagram.com/',
+    share: 15
+}
+
+console.log(myInstagramPost);
