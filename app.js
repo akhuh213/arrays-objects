@@ -115,3 +115,18 @@ const myInstagramPost = {
 }
 
 console.log(myInstagramPost);
+console.log(myInstagramPost.comments[1]);
+
+let sentence = "I'm cool";
+let sentenceTwo = 'I\'m cool too';
+
+const FourthOfJulyPost = {
+    username: 'alicee'
+};
+
+FourthOfJulyPost.picture = 'https://instagram.com/...';
+FourthOfJulyPost['likes'] = 15;
+FourthOfJulyPost.comments = ['oka..'];
+FourthOfJulyPost.caption = 'writing code on the 4th';
+
+console.log(FourthOfJulyPost);
